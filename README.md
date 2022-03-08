@@ -31,11 +31,14 @@ Schematics:  P1 header is only for flashing and debuging, I need it since I am u
 
 ## Reference information
 
-Thanks to the following project which helped me to understand the protocol:</BR>
+Thanks to the following projects which helped me to understand the protocol:</BR>
 
 https://github.com/CamiAlfa/M365-BLE-PROTOCOL
+
 https://github.com/etransport/ninebot-docs/wiki/protocol
+
 https://github.com/camcamfresh/Xiaomi-M365-BLE-Controller-Replacement
+
 
 ## Bench TEST
 
