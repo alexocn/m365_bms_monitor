@@ -8,7 +8,9 @@ This project is designed for the use of M365 compatible batteries either in M365
 
 `src/m365_bms_activator.ino` - simple code for activation of the battery only(ignores output from the battery). Work with any kind of Arduino compatible device(UNO, Nano, ESP8266/ESP32).
 
-`src/m365_esp32BLE_emulator.ino` - full BLE emulator using ESP32. Not only it activates the battery but also allows connection M365Tools android app to monitor it's health including individual cell voltages.
+`src/m365_esp32BLE_emulator.ino` - BLE emulator using ESP32 to test phone app. It does not support BMS connection and has messages hardcoded.
+
+`src/m365_esp32BLE_bmsmonitor.ino` - full BLE emulator using ESP32. Not only it activates the battery but also allows connection M365Tools android app to monitor it's health including individual cell voltages.
 
 **I have tested it with BMS 1.1.5 version which uses 55AA protocol. Newer BMS might use newer 5AA5 protocol so the code will have to be slightly modified. I am too lazy to upgrade and therefore have no way of testing newer BMS.**
 
