@@ -148,7 +148,7 @@ void parse_31(const byte *pkt) {
 //           LENG/ADDR/READ/CMND/CAPACITY /CHARGE   /CURRENT  /VOLTAGE  /TEMP    */
 //{0x55,0xAA,0x0C,0x25,0x01,0x31,0xDE,0xAD,0xBE,0x00,0x10,0x00,0xFA,0xCE,0x2A,0x2B};
   int off;
-  if (packetType = NB) off = 1;
+  if (packetType == NB) off = 1;
   else off = 0;
   parsed_state.capacity = pkt[off+6] + (pkt[off+7] << 8);
   parsed_state.charge = pkt[off+8] + (pkt[off+9] << 8);
